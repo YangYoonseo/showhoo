@@ -1,0 +1,89 @@
+.Notice {
+  /* 예매하기 */
+
+  position: absolute;
+  width: 698px;
+  height: 454px;
+  left: 707px;
+  top: 250px;
+
+  background: #ffffff;
+  border-radius: 25px;
+
+  padding: 0;
+}
+
+.Notice h1 {
+  /* 유의사항 */
+
+  position: absolute;
+  width: 516px;
+  height: 48px;
+  left: 91px;
+  top: 61px;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 30px;
+  /* or 75% */
+  display: flex;
+  align-items: center;
+
+  color: #0f0f0f;
+}
+
+.Notice p {
+  /* 아래 버튼을 선택하면, 호스트가 설정한 공연장 이용규칙, 공연자에게 적용되는 기본 규칙, 공연장 재예약 및 환불 정책에 동의하며, 피해에 대한 책임이 본인에게 있을 경우 쇼호가 청구의 조치를 취할 수 있다는 사실에 동의하는 것입니다. 또한, 이용약관과 결제 서비스 약관 및 개인정보 처리방침에도 동의합니다. */
+
+  position: absolute;
+  width: 516px;
+  height: 150px;
+  left: 91px;
+  top: 140px;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+
+  color: #0f0f0f;
+}
+
+.Notice button {
+  /* 예매하기 버튼 */
+
+  position: absolute;
+  width: 242px;
+  height: 48px;
+  left: 228px;
+  top: 346px;
+  padding: 0;
+  margin: 0;
+
+  background: #09f1b9;
+  border-radius: 14px;
+
+  /* 확인 */
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  /* or 214% */
+
+  text-align: center;
+
+  color: #0f0f0f;
+  border: none;
+}
